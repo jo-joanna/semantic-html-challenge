@@ -5,7 +5,62 @@ body {
   margin: 2em;
 }
 
-h1 {
+caption {
+  caption-side: bottom;
+  text-align: right;
   font-style: italic;
-  color: #373fff;
+  font-family: rock salt;
+  font-size: 10px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #800080;
+  background-image: url("assets/leopardskin.jpg");
+}
+.band {
+  width: auto;
+}
+.year-formed{
+  width: auto;
+}
+.albums {
+  width: auto;
+}
+.song {
+  width: auto;
+}
+
+th, tfoot, tfoot td {
+  font-family: rock salt;
+  color: white;
+  border: 3px solid;
+  border-color: #800080;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+th, td {
+  padding: 15px;
+}
+tr:nth-child(even) {
+  font-family: helvetica neue;
+  font-size: 14px;
+  text-align: center;
+  background-image: url("assets/noise.png");
+  background-color: #ff33cc;
+  padding: 20px;
+}
+
+tr:nth-last-of-type(even){
+  font-family: helvetica neue;
+  font-size: 14px;
+  text-align: center;
+  background-image: url("assets/noise.png");
+  background-color: #e495e4;
+}
+.textright{
+  text-align: right;
+}
+tbody td:first-of-type{
+  font-weight: bold;
 }
